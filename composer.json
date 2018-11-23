@@ -1,0 +1,15 @@
+{
+    "name": "jarvis/notify",
+    "authors": [
+        {
+            "name": "Jarvis",
+            "email": "endless640c@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "app"
+        ]
+    }
+}
