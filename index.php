@@ -52,7 +52,7 @@ class Messages
     {
         //距離今天幾天到期
 
-        $today = strtotime(now) / 86000;
+        $today = strtotime("now") / 86000;
         //距離今天幾天到期
         if ($expirydate - $today > 0) {
             $days = $expirydate - $today;
